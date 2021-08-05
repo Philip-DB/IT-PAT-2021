@@ -1,0 +1,25 @@
+unit dmHospital_u;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TdmHospital = class(TDataModule)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dmHospital: TdmHospital;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

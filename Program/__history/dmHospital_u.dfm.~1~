@@ -1,0 +1,5 @@
+object dmHospital: TdmHospital
+  OldCreateOrder = False
+  Height = 314
+  Width = 486
+end
